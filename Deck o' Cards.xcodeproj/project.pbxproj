@@ -8,18 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		D3B3BE342A7D4D0A00048573 /* Deck_o__CardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B3BE332A7D4D0A00048573 /* Deck_o__CardsApp.swift */; };
-		D3B3BE362A7D4D0A00048573 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B3BE352A7D4D0A00048573 /* ContentView.swift */; };
 		D3B3BE382A7D4D0C00048573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B3BE372A7D4D0C00048573 /* Assets.xcassets */; };
 		D3B3BE3B2A7D4D0C00048573 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B3BE3A2A7D4D0C00048573 /* Preview Assets.xcassets */; };
+		D3B3BE442A7D4D6500048573 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B3BE422A7D4D6500048573 /* ContentView.swift */; };
+		D3B3BE452A7D4D6500048573 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B3BE432A7D4D6500048573 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D3B3BE302A7D4D0A00048573 /* Deck o' Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deck o' Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B3BE332A7D4D0A00048573 /* Deck_o__CardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck_o__CardsApp.swift; sourceTree = "<group>"; };
-		D3B3BE352A7D4D0A00048573 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3B3BE372A7D4D0C00048573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3B3BE3A2A7D4D0C00048573 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3B3BE3C2A7D4D0C00048573 /* Deck_o__Cards.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Deck_o__Cards.entitlements; sourceTree = "<group>"; };
+		D3B3BE422A7D4D6500048573 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3B3BE432A7D4D6500048573 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D3D85FFB2A7DCB4A00445A6D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +39,7 @@
 		D3B3BE272A7D4D0A00048573 = {
 			isa = PBXGroup;
 			children = (
+				D3D85FFB2A7DCB4A00445A6D /* README.md */,
 				D3B3BE322A7D4D0A00048573 /* Deck o' Cards */,
 				D3B3BE312A7D4D0A00048573 /* Products */,
 			);
@@ -52,8 +56,9 @@
 		D3B3BE322A7D4D0A00048573 /* Deck o' Cards */ = {
 			isa = PBXGroup;
 			children = (
+				D3B3BE422A7D4D6500048573 /* ContentView.swift */,
 				D3B3BE332A7D4D0A00048573 /* Deck_o__CardsApp.swift */,
-				D3B3BE352A7D4D0A00048573 /* ContentView.swift */,
+				D3B3BE432A7D4D6500048573 /* Models.swift */,
 				D3B3BE372A7D4D0C00048573 /* Assets.xcassets */,
 				D3B3BE3C2A7D4D0C00048573 /* Deck_o__Cards.entitlements */,
 				D3B3BE392A7D4D0C00048573 /* Preview Content */,
@@ -139,8 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3B3BE362A7D4D0A00048573 /* ContentView.swift in Sources */,
 				D3B3BE342A7D4D0A00048573 /* Deck_o__CardsApp.swift in Sources */,
+				D3B3BE442A7D4D6500048573 /* ContentView.swift in Sources */,
+				D3B3BE452A7D4D6500048573 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
